@@ -1,7 +1,48 @@
+body{
+    background-image: url(wp7599470-night-minimal-wallpapers.jpg);
+}
+
 .topnav {
+    background-image: url(wp7599470-night-minimal-wallpapers.jpg);
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.topnav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
 }
-body {
-    background-image: url(wp7599470-night-minimal-wallpapers.jpg);
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
     color: white;
 }
+
+.main {
+    margin-top: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
+  
