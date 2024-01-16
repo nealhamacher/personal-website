@@ -1,5 +1,6 @@
 body{
     background-image: url(backgrounds/13312.jpg);
+    padding: 5px
 }
 
 .main {
@@ -23,11 +24,11 @@ body{
 }
 
 .hdr_main {
-    animation: fadeIn1 10s;
+    animation: fadeIn1 2s;
 }
 
 .txt_main {
-    animation: fadeIn2 5;
+    animation: fadeIn2 2s;
 }
 
 .buttons a{
@@ -44,6 +45,7 @@ body{
 
 .buttons_main {
     text-align: center;
+    animation: fadeIn2 4s;
 }
 
 .buttons a:hover {
@@ -62,21 +64,35 @@ body{
     display: flex;
     position: fixed;
     top: 0;
+    padding: 5px;
     width: 100%;
 }
 
 .subpage {
-    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    padding: 0%;
+}
+
+.img-chess {
+    img {
+        max-width: 25%;
+        height: auto;
+    }
+
 }
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: smaller;
-    text-align: center;
     padding: 5px;
-    background-color: gainsboro;
     color: #000;
     margin-bottom: 20px;
     text-decoration: none;
   }
+
+.ftr_main {
+    animation: fadeIn2 6s;    
+    text-align: center;
+}
   
