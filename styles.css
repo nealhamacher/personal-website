@@ -1,42 +1,53 @@
 body{
-    background-image: url(wp7599470-night-minimal-wallpapers.jpg);
+    background-image: url(backgrounds/13312.jpg);
+}
+
+.main {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buttons a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+.buttons_main {
+    text-align: center;
+}
+
+.buttons a:hover {
+    background-color: gray;
+    color: black;
+}
+  
+.buttons a:active {
+    background-color: blackgit;
+    color: white;
 }
 
 .topnav {
-    background-image: url(wp7599470-night-minimal-wallpapers.jpg);
+    background-image: url(backgrounds/13312.jpg);
     overflow: hidden;
     display: flex;
     position: fixed;
     top: 0;
     width: 100%;
 }
-.topnav a{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: block;
-    color: bisque;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.main {
+.subpage {
     margin-top: 30px;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
 }
 
 .footer {
@@ -44,5 +55,7 @@ body{
     padding: 5px;
     background-color: #abbaba;
     color: #000;
+    margin-bottom: 20px;
+    text-decoration: none;
   }
   
