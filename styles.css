@@ -11,6 +11,25 @@ body{
     align-items: center; 
 }
 
+@keyframes fadeIn1 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@keyframes fadeIn2 {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.hdr_main {
+    animation: fadeIn1 10s;
+}
+
+.txt_main {
+    animation: fadeIn2 5;
+}
+
 .buttons a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
@@ -50,10 +69,12 @@ body{
     margin-top: 30px;
 }
 
-.footer {
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
     text-align: center;
     padding: 5px;
-    background-color: #abbaba;
+    background-color: gainsboro;
     color: #000;
     margin-bottom: 20px;
     text-decoration: none;
