@@ -68,6 +68,14 @@ body{
     width: 100%;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 0.75em;
+}
+
 .subpage {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 50px;
@@ -84,7 +92,7 @@ body{
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: smaller;
+    font-size: 0.625em;
     padding: 5px;
     color: #000;
     margin-bottom: 20px;
