@@ -1,6 +1,5 @@
 body{
     background-image: url(backgrounds/13312.jpg);
-    padding: 5px
 }
 
 .main {
@@ -27,8 +26,21 @@ body{
     animation: fadeIn1 2s;
 }
 
+.img_main {
+    width: 150px;
+    padding: 37.5px;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+.img_main img{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.42);   
+    animation: fadeIn2 2s; 
+}
+
 .txt_main {
-    animation: fadeIn2 2s;
+    animation: fadeIn2 3s;
 }
 
 .buttons a{
@@ -37,9 +49,12 @@ body{
     color: black;
     text-align: center;
     display: inline-block;
-    padding: 14px 16px;
+    padding: 8px 12px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    background-color: azure;
 
 }
 
@@ -66,28 +81,34 @@ body{
     top: 0;
     padding: 5px;
     width: 100%;
+    border-bottom: 1px solid black;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: black;
+    background-color: black;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 4em;
 }
 
 p {
-    font-size: 0.75em;
+    font-size: 1em;
 }
 
 .subpage {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 50px;
     padding: 0%;
+    margin-left: 2.5px;
 }
 
-.img-chess {
-    img {
-        max-width: 25%;
-        height: auto;
-    }
-
+.img_chess {
+    max-width: 25%;
+    height: auto;
 }
 
 footer {
@@ -103,4 +124,3 @@ footer {
     animation: fadeIn2 6s;    
     text-align: center;
 }
-  
