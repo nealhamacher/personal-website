@@ -39,7 +39,7 @@ body{
 .img_main img{
     max-width: 100%;  
     animation: fadeIn2 2s;
-    border-radius: 50%; 
+    border-radius: 25%; 
 }
 
 .txt_main {
@@ -47,7 +47,7 @@ body{
 }
 
 .buttons a{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     color: black;
@@ -96,20 +96,20 @@ hr {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5rem;
     display: inline;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .subpage {
@@ -126,7 +126,7 @@ p {
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 0.75em;
+    font-size: 0.625rem;
     padding: 5px;
     color: #000;
     margin-bottom: 20px;
