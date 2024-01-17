@@ -31,13 +31,7 @@ body{
 }
 
 .img_main {
-    width: 300px;
-    padding: 75px;
-    overflow: hidden;
-}
-
-.img_main img{
-    max-width: 100%;  
+    max-width: 25%;  
     animation: fadeIn2 2s;
     border-radius: 25%; 
 }
@@ -47,7 +41,7 @@ body{
 }
 
 .buttons a{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     color: black;
