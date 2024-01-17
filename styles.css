@@ -1,9 +1,9 @@
 body{
     background-image: url(backgrounds/13312.jpg);
+    color: black;
 }
 
 .main {
-    color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
@@ -27,8 +27,8 @@ body{
 }
 
 .img_main {
-    width: 150px;
-    padding: 37.5px;
+    width: 300px;
+    padding: 75px;
     transform: rotate(45deg);
     overflow: hidden;
 }
@@ -44,6 +44,7 @@ body{
 }
 
 .buttons a{
+    font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     color: black;
@@ -54,7 +55,7 @@ body{
     border-radius: 8px;
     margin-left: 2.5px;
     margin-right: 2.5px;
-    background-color: azure;
+    background-color: #0e574f;
 
 }
 
@@ -64,13 +65,13 @@ body{
 }
 
 .buttons a:hover {
-    background-color: gray;
+    background-color: #1a9788;
     color: black;
 }
   
 .buttons a:active {
-    background-color: blackgit;
-    color: white;
+    background-color: #28ead3;
+    color: black;
 }
 
 .topnav {
@@ -92,16 +93,25 @@ hr {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 6em;
+    display: inline;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .subpage {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 0%;
     margin-left: 2.5px;
 }
@@ -113,7 +123,7 @@ p {
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 0.625em;
+    font-size: 0.75em;
     padding: 5px;
     color: #000;
     margin-bottom: 20px;
