@@ -85,6 +85,20 @@ body{
     border-bottom: 1px solid black;
 }
 
+.subpage {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    padding: 0%;
+    margin-left: 2.5px;
+}
+
+.img_chess {
+    max-width: 25%;
+    height: auto;
+    border-radius: 2%;
+}
+
+
 hr {
     height: 1px;
     border-width: 0;
@@ -105,17 +119,8 @@ h4 {
     font-size: 1.5rem;
 }
 
-.subpage {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 30px;
-    padding: 0%;
-    margin-left: 2.5px;
-}
-
-.img_chess {
-    max-width: 25%;
-    height: auto;
-    border-radius: 2%;
+img {
+    max-width: 100%;
 }
 
 footer {
