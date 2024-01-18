@@ -31,7 +31,8 @@ body{
 }
 
 .img_main {
-    max-width: 25%;  
+    max-width: 50%;
+    width: 500px;  
     animation: fadeIn2 2s;
     border-radius: 25%; 
 }
@@ -41,7 +42,7 @@ body{
 }
 
 .buttons a{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     color: black;
@@ -53,12 +54,14 @@ body{
     margin-left: 2.5px;
     margin-right: 2.5px;
     background-color: #0e574f;
+    max-width: 100%;
 
 }
 
 .buttons_main {
     text-align: center;
     animation: fadeIn2 4s;
+    max-width: 100%;
 }
 
 .buttons a:hover {
@@ -131,3 +134,4 @@ footer {
     animation: fadeIn2 6s;    
     text-align: center;
 }
+    
