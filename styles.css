@@ -115,6 +115,7 @@ h4 {
 .img_chess {
     max-width: 25%;
     height: auto;
+    border-radius: 2%;
 }
 
 footer {
